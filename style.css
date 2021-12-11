@@ -1,0 +1,29 @@
+.first-section {
+    background-color: #1F2937;
+}
+
+.top-bar {
+    display: flex;
+}
+
+.top-bar p {
+    color: white;
+    height: 50px;
+    flex: 1 1 20%;
+    text-align: center;
+}
+
+.header-links {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-weight: bold;
+}
+
