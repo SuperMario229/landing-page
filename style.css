@@ -1,5 +1,12 @@
-.first-section {
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500;600&display=swap');
+
+* {
+    font-family: 'Readex Pro';
+}
+
+.first-section-whole {
     background-color: #1F2937;
+    padding-bottom: 50px;
 }
 
 .top-bar {
@@ -27,3 +34,36 @@
     font-weight: bold;
 }
 
+.first-section {
+    padding-left: 200px;
+}
+
+.text-and-button {
+    width: 500px;
+}
+
+.signup {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+  }
+
+  .hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+  }
+
+  .hero-secondary {
+    font-size: 18px;
+    color: #E5E7Eb;
+  }
